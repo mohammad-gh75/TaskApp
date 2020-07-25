@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TaskApp</string>
 
+    <string name="label_task_builder">TaskBuilder</string>
+    <string name="label_task_list">TaskList</string>
+
 
     <string name="text_view_username">Username:</string>
     <string name="text_view_task_number">Task\'s Number:</string>

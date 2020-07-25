@@ -27,8 +27,9 @@
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@id/text_view_username"
         android:ems="10"
-        android:hint="@string/text_view_username"
+        android:hint="Username"
         android:inputType="textPersonName"
+        android:maxLength="20"
         android:padding="8dp"
         android:singleLine="true" />
 
@@ -48,14 +49,16 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_below="@id/edit_text_username"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@id/text_view_number"
-        android:ems="10"
-        android:inputType="numberSigned" />
+        android:ems="6"
+        android:hint="Number"
+        android:inputType="numberSigned"
+        android:maxLength="6" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_build"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
