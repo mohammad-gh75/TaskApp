@@ -24,7 +24,7 @@ public class Task {
     }
 
     public Task() {
-        mId=UUID.randomUUID();
+        mId = UUID.randomUUID();
     }
 
     public Task(String name, TaskState state) {
