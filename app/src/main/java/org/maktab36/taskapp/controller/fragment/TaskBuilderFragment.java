@@ -45,8 +45,6 @@ public class TaskBuilderFragment extends Fragment {
         return view;
     }
 
-
-
     private void findViews(View view) {
         mButtonBuild=view.findViewById(R.id.button_build);
         mTextViewName=view.findViewById(R.id.edit_text_username);
